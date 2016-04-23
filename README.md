@@ -1,3 +1,10 @@
+# Usage
+```bash
+# Clone Docker-on-Turnkeylinux-Core Repo
+git clone https://github.com/ano/Docker-on-Turnkeylinux-Core.git
+docker build -t "ffa:docker_on_turnkeylinux" .
+```
+
 # Installing Docker on TurnkeyLinux Core
 Installing Docker on TurnkeyLinux Core and enabling access by various Docker GUI tools
 
