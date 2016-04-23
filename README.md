@@ -3,7 +3,7 @@ Installing Docker on TurnkeyLinux Core and enabling access by various Docker GUI
 
 # Instructions
 Download and Install Virtualbox
-Download [**TurnkeyLinux Core](https://www.turnkeylinux.org/download?file=turnkey-core-14.1-jessie-amd64.ova)
+Download [**TurnkeyLinux Core**](https://www.turnkeylinux.org/download?file=turnkey-core-14.1-jessie-amd64.ova)
 Double Click to Install TurnkeyLinux Core on Virtualbox, follow the prompts
 
 > Enter your root password and confirm
