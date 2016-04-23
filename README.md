@@ -23,11 +23,12 @@ Note, if you are behind a firewall run this command to get through it...check wi
 echo "export http_proxy=http://username:password@10.1.1.1:8080/" >> /etc/apt/apt.conf.d/01turnkey 
 ```
 
-# Docker Install
+#Usage
+Here's an example of how you'd use it. Clone a repo off Github and then build and then run it in your docker host.
+##Installing a Container from GitHub
+
 ```bash
-# Clone Docker-on-Turnkeylinux-Core Repo
-git clone https://github.com/ano/Docker-on-Turnkeylinux-Core.git
-docker build -t "turnkeylinux/docker-14.1" .
-tklbam-init [API-KEY]
-tklbam-backup
+# Clone Repo and build then build the container
+git clone https://github.com/ano/TurnkeyLinux-LAPP-and-NodeJS.git
+docker build -t "turnkeylinux/LAPP-and-NodeJS-14.1" .
 ```
