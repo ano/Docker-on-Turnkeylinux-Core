@@ -12,6 +12,7 @@ Installing Docker on TurnkeyLinux Core and enabling access by various Docker GUI
 #Install docker
 echo "deb http://ftp.debian.org/debian jessie-backports main" >> /etc/apt/sources.list.d/sources.list
 apt-get update
+apt-get install apt-utils
 apt-get install docker.io
 
 #Allow Remote API Access for GUI tools
