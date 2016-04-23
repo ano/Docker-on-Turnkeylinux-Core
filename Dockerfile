@@ -19,7 +19,7 @@ RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 2375
 
-ENTRYPOINT ["/usr/sbin/start.sh", "-D", "FOREGROUND"]
+ENTRYPOINT ["/usr/sbin/start.sh"]
 
 #(Optional)Bring in Required images
 #RUN docker pull turnkeylinux/lapp-14.1
