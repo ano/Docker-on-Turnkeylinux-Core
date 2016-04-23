@@ -15,13 +15,7 @@ service docker restart
 docker pull turnkeylinux/lapp-14.1
 docker pull turnkeylinux/lamp-14.1
 ```
-Then you can use a tool like (**Simple Docker UI**)[https://chrome.google.com/webstore/detail/simple-docker-ui/jfaelnolkgonnjdlkfokjadedkacbnib?hl=en] to manage the docker host
-
-Note, if you are behind a firewall run this command to get through it...check with your network administrator to find out what this is
-
-```bash
-echo "export http_proxy=http://username:password@10.1.1.1:8080/" >> /etc/apt/apt.conf.d/01turnkey 
-```
+Then you can use a tool like [**Simple Docker UI**](https://chrome.google.com/webstore/detail/simple-docker-ui/jfaelnolkgonnjdlkfokjadedkacbnib?hl=en) to manage the docker host
 
 #Usage
 Here's an example of how you'd use it. Clone a docker file off Github and then build and then run it in your docker host. In this example we're using TurnkeyLinux LAPP with NodeJS installed.
