@@ -1,11 +1,11 @@
-# Usage
+# Docker Install
 ```bash
 # Clone Docker-on-Turnkeylinux-Core Repo
 git clone https://github.com/ano/Docker-on-Turnkeylinux-Core.git
 docker build -t "ffa:docker_on_turnkeylinux" .
 ```
 
-# Installing Docker on TurnkeyLinux Core
+# Manual Installing
 Installing Docker on TurnkeyLinux Core and enabling access by various Docker GUI tools
 
 ```bash
@@ -29,8 +29,3 @@ Note, if you are behind a firewall run this command to get through it...check wi
 ```bash
 echo "export http_proxy=http://username:password@10.1.1.1:8080/" >> /etc/apt/apt.conf.d/01turnkey 
 ```
-
-#Things to do
-Create a docker file from this
-
-Do a test Build
