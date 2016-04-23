@@ -1,4 +1,4 @@
-# Install on TurnkeyLinux Core
+# Setting Up a Docker Host Server on TurnkeyLinux Core
 Installing Docker on TurnkeyLinux Core and enabling access by various Docker GUI tools
 
 ```bash
