@@ -25,3 +25,4 @@ echo "export http_proxy=http://username:password@10.1.1.1:8080/" >> /etc/apt/apt
 
 #Things to do
 Create a docker file from this
+Do a test Build
