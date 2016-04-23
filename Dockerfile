@@ -7,7 +7,6 @@ MAINTAINER Ano Tisam "an0tis@gmail.com"
 #Install docker
 RUN echo "deb http://ftp.debian.org/debian jessie-backports main" >> /etc/apt/sources.list.d/sources.list
 RUN apt-get update
-RUN apt-get install apt-utils -y
 RUN apt-get install docker.io -y
 
 #Allow Remote API Access for GUI tools
