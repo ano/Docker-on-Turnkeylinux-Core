@@ -3,7 +3,9 @@ Installing Docker on TurnkeyLinux Core and enabling access by various Docker GUI
 
 # Instructions
 Download and Install Virtualbox
+
 Download [**TurnkeyLinux Core**](https://www.turnkeylinux.org/download?file=turnkey-core-14.1-jessie-amd64.ova)
+
 Double Click to Install TurnkeyLinux Core on Virtualbox, follow the prompts
 
 > Enter your root password and confirm
@@ -13,6 +15,7 @@ Double Click to Install TurnkeyLinux Core on Virtualbox, follow the prompts
 > Install security updates **SKIP** this, tab tab to skip
 
 Once installation is complete the server should reboot. Take note of the servers IP Address.
+
 Use Putty to log into the server via SSH and run the following commands.  
 
 ```bash
@@ -32,7 +35,9 @@ docker pull turnkeylinux/lamp-14.1
 Use a tool like [**Simple Docker UI**](https://chrome.google.com/webstore/detail/simple-docker-ui/jfaelnolkgonnjdlkfokjadedkacbnib?hl=en) to manage the docker host. You should be able to connect to [SERVER_IP_ADDRESS]:2375
 
 #Usage
-Here's an example of how you'd use it. Clone a docker file off Github and then build and then run it in your docker host. In this example we're using TurnkeyLinux LAPP with NodeJS installed.
+Here's an example of how you'd use it. 
+
+Clone a docker file off Github and then build and then run it in your docker host. In this example we're using TurnkeyLinux LAPP with NodeJS installed.
 
 ##TurnkeyLAPP with NodeJS
 ```bash
