@@ -9,9 +9,13 @@ Download [**TurnkeyLinux Core**](https://www.turnkeylinux.org/download?file=turn
 Double Click to Install TurnkeyLinux Core on Virtualbox, follow the prompts
 
 > Enter your root password and confirm
+
 > Enter your postgres password and confirm
+
 > Enter your API key, set this to **SKIP**
+
 > Enter your email address **SKIP** this, tab tab to skip
+
 > Install security updates **SKIP** this, tab tab to skip
 
 Once installation is complete the server should reboot. Take note of the servers IP Address.
