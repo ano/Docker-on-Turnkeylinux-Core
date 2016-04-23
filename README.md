@@ -24,9 +24,9 @@ echo "export http_proxy=http://username:password@10.1.1.1:8080/" >> /etc/apt/apt
 ```
 
 #Usage
-Here's an example of how you'd use it. Clone a repo off Github and then build and then run it in your docker host.
-##Installing a Container from GitHub
+Here's an example of how you'd use it. Clone a docker file off Github and then build and then run it in your docker host. In this example we're using TurnkeyLinux LAPP with NodeJS installed.
 
+##TurnkeyLAPP with NodeJS
 ```bash
 # Clone Repo and build then build the container
 git clone https://github.com/ano/TurnkeyLinux-LAPP-and-NodeJS.git
