@@ -17,6 +17,8 @@ RUN service docker restart
 RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+EXPOSE 2375
+
 ENTRYPOINT ["/usr/sbin/start.sh", "-D", "FOREGROUND"]
 
 #(Optional)Bring in Required images
