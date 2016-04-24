@@ -41,7 +41,11 @@ Use a tool like [**Simple Docker UI**](https://chrome.google.com/webstore/detail
 #Usage
 Here's an example of how you'd use it. 
 
-Clone a docker file off Github and then build and then run it in your docker host. In this example we're using TurnkeyLinux LAPP with NodeJS installed.
+1. Clone a docker file off Github
+2. Build it 
+3. and then run it in your docker host. 
+
+In this example we're using TurnkeyLinux LAPP as a base image and then installing NodeJS on top of it.
 
 ##TurnkeyLAPP with NodeJS
 ```bash
